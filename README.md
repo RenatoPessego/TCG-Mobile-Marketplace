@@ -1,4 +1,4 @@
-# 🃏 Yu-Gi-Oh! TCG Marketplace & Companion App
+# Yu-Gi-Oh! TCG Marketplace & Companion App
 
 > **Academic Achievement:** This project was developed as part of the "Ubiquitous Applications" course during an Erasmus+ exchange program, where it received a perfect **20/20** grade.
 
