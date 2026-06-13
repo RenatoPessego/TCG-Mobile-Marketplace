@@ -1,7 +1,7 @@
 const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
-const JWT_SECRET = 'digimonSecretKey123';
+const JWT_SECRET = process.env.JWT_SECRET;
 
 function checkPasswordRequirements(password) {
   if (password.length < 12) return 'Password must be at least 12 characters long';

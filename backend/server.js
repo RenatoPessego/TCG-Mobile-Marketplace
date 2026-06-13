@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const passport = require('passport');
 const mongoose = require('mongoose');
@@ -21,7 +22,7 @@ const PORT = 5000;
 
 if (process.env.NODE_ENV !== 'test') {
   // MongoDB Atlas
-  mongoose.connect('mongodb+srv://Ubiquitous:8gl4dWSOoskdAl8o@cluster0.cixc7gb.mongodb.net/Ubiquos')
+  mongoose.connect(process.env.MONGODB_URI)
   .then(() => console.log('MongoDB Atlas connected'))
   .catch((err) => console.error('MongoDB error:', err));
 }
