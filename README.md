@@ -102,6 +102,17 @@ cd backend
 npm test
 ```
 
+## Team
+
+This project was designed and developed in collaboration by:
+
+* **[Renato Pêssego](https://github.com/renatopessego)** — *Lead Developer & Software Architect*
+  Responsible for the system architecture design, data modeling, backend implementation, and overall project management and testing.
+  
+* **[Lucas Neves](https://github.com/Snowluccs)** — *Developer*
+  Responsible for development support, feature implementation, and testing.
+
+
 ## License
 
 This project is licensed under the **0BSD License**. See the `package.json` for details.
